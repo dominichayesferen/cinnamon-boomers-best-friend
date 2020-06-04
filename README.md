@@ -1,4 +1,4 @@
-# "Boomer's Best Friend" for Modern Cinnamon
+# "Boomer's Best Friend" for the Modern Cinnamon
 A simple tongue-in-cheek Bash Script to apply the Traditional Layout to any non-ancient Cinnamon Desktop
 
 
