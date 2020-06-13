@@ -6,4 +6,7 @@ gsettings set org.cinnamon panel-zone-icon-sizes '[ {"panelId": 1, "left": 22, "
 gsettings set org.cinnamon panel-zone-symbolic-icon-sizes '[ {"panelId": 1, "left": 22, "center": 22, "right": 16} ]'
 gsettings set org.cinnamon panels-height "[ '1:27' ]"
 
-notify-send "Ok Boomer" "Boomer's Best Friend has now been activated. Your panels have been changed to better match the Traditional Panel style from the older Linux Mint Cinnamon releases."
+cinnamon --replace &
+
+zenity --info --title "Ok Boomer" --text "Boomer's Best Friend has now been activated. Your panels have been changed to better
+match the Traditional Panel style from the older Linux Mint Cinnamon releases." --no-wrap
